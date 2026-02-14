@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: distributed-log-monitor
+Version: 0.1.0
+Summary: Step-by-step distributed log monitoring system in Python.
+Requires-Python: >=3.11
+Requires-Dist: fastapi<1.0,>=0.116
+Requires-Dist: uvicorn<1.0,>=0.35
+Provides-Extra: dev
+Requires-Dist: pytest<9.0,>=8.4; extra == "dev"
+Requires-Dist: httpx<1.0,>=0.28; extra == "dev"
