@@ -15,6 +15,9 @@ This project targets the core capabilities required to run a SaaS log monitoring
 
 - FastAPI service bootstrap
 - Health endpoint (`GET /health`)
+- Ingestion endpoint (`POST /v1/logs`)
+- Required tenant boundary (`X-Tenant-ID`)
+- Strict log event contract validation
 - Test baseline with `pytest`
 
 ## Planned Architecture
